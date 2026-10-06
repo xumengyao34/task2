@@ -23,3 +23,4 @@ ros2 topic echo /gimbal_status
 
 [Screencast from 2026年10月06日 20时02分37秒.webm](https://github.com/user-attachments/assets/2076678c-b547-45ee-8eb0-4afb5a792bce)
 当然，这个也存在一定弊端性，只依据了TF极短时间下位移来实现筛选。可考虑采用多方面如里程计，IMU三者共同判断。
+当时我在实验室录的包没怎么动雷达，所以我的数据也有一点缺陷，可能没有完全测试到它的可行性。
